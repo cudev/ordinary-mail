@@ -1,0 +1,16 @@
+{
+  "name": "cudev/mailer",
+  "type": "library",
+  "description": "Simple PHPMailer wrapper",
+  "homepage": "https://github.com/cudev/mailer",
+  "require": {
+    "php": "~7.0",
+    "phpmailer/phpmailer": "^5.2",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cudev\\Mailer\\": "src"
+    }
+  }
+}
