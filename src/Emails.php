@@ -7,7 +7,6 @@ use RuntimeException;
 class Emails
 {
     const DEFAULT_CIPHER_METHOD = 'AES-256-CBC';
-    const CIPHER_HASH = 'ThereWillComeSoftRains';
 
     private static $cipherHash;
 
