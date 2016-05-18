@@ -1,8 +1,8 @@
 {
-  "name": "cudev/mailer",
+  "name": "cudev/ordinary-mail",
   "type": "library",
   "description": "Simple PHPMailer wrapper",
-  "homepage": "https://github.com/cudev/mailer",
+  "homepage": "https://github.com/cudev/ordinary-mail",
   "require": {
     "php": "~7.0",
     "phpmailer/phpmailer": "^5.2",
@@ -10,7 +10,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Cudev\\Mailer\\": "src"
+      "Cudev\\OrdinaryMail\\": "src"
     }
   }
 }
