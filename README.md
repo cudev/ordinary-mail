@@ -1,5 +1,5 @@
 # ordinary-mail
-Very simple wrapper over PHPMailer
+Very simple and quiet limited wrapper over PHPMailer
 
 ## Copyright and license
 
