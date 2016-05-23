@@ -24,6 +24,12 @@ class Mailer
         return $mailer;
     }
 
+    public function setDebug(bool $debug)
+    {
+        $this->mailer->SMTPDebug = $debug ? 4 : 0;
+        return $this;
+    }
+
     public function setProtocol($smtpProtocol)
     {
         $this->mailer->SMTPSecure = $smtpProtocol;
@@ -62,7 +68,7 @@ class Mailer
         $this->mailer->Subject = $letter->getSubject();
         $this->mailer->Body = $letter->getBody();
 
-        $this->mailer->clearAddresses(); // just in case ✝
+        $this->mailer->clearAddresses();
 
         foreach ($letter->getRecipients() as $recipient) {
             $this->mailer->addAddress($recipient->getAddress(), $recipient->getName());
