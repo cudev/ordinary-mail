@@ -28,6 +28,12 @@ namespace Cudev\OrdinaryMail;
 
 use InvalidArgumentException;
 
+/**
+ * Main purpose of the class to encrypt email address 
+ * and safely send over public network as in URL
+ * Class EmailAddressEncryptor
+ * @package Cudev\OrdinaryMail
+ */
 class EmailAddressEncryptor
 {
     const DEFAULT_CIPHER_METHOD = 'AES-256-CBC';
