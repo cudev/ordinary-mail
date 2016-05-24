@@ -16,7 +16,7 @@ class Mailer
     private function makePHPMailer(): PHPMailer
     {
         $mailer = new PHPMailer(true);
-        $mailer->SMTPDebug = 1;
+        $mailer->SMTPDebug = 0;
         $mailer->SMTPAuth = true;
         $mailer->isSMTP();
         $mailer->CharSet = 'UTF-8';
