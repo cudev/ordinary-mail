@@ -27,7 +27,7 @@
 namespace Cudev\OrdinaryMail;
 
 /**
- * Just marker interface to find something with name and address
+ * Just marker interface to use something with name and address
  * Interface CredentialsInterface
  * @package Cudev\OrdinaryMail
  */
